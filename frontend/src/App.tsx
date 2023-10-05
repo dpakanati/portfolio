@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-        Test
+        Gear 5th
     </>
   )
 }
