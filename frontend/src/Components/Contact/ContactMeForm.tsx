@@ -1,20 +1,22 @@
 function ContactMeForm(){
     return (
-        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
-            <div className="mb-3">
-                <label className="form-label">Name</label>
-                <input type="text" className="form-control" name="name" />
-            </div>
-            <div className="mb-3">
-                <label className="form-label">Email</label>
-                <input type="email" className="form-control" name="email" />
-            </div>
-            <div className="mb-3">
-                <label className="form-label">Message</label>
-                <textarea className="form-control" name="message"></textarea>
-            </div>
-            <button type="submit" className="btn btn-primary">Send</button>
-        </form>
+        <div className="p-5">
+            <h1 className="pb-3">Get in touch</h1>
+            <form action="mailto:your-email@example.com" method="post" encType="text/plain">
+                <div className="mb-3">
+                    <input type="text"  placeholder="Your Name" className="form-control" name="name"/>
+                </div>
+                <div className="mb-3">
+                    <input type="email" placeholder="Email Address" className="form-control" name="email"/>
+                </div>
+                <div className="mb-3">
+
+                    <textarea className="form-control" placeholder="Your message" name="message"></textarea>
+                </div>
+                <button type="submit" className="btn btn-primary">Send</button>
+            </form>
+        </div>
+
     );
 }
 export default ContactMeForm;

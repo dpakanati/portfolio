@@ -1,7 +1,11 @@
 .custom-height{
-    height:50vh;
+    height:40vh;
 }
 .custom_img{
 
     object-fit: contain;
+}
+.scrollable-cards {
+    overflow-x: auto;
+    white-space: nowrap;
 }
