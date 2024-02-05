@@ -1,0 +1,7 @@
+.custom-height{
+    height:50vh;
+}
+.custom_img{
+
+    object-fit: contain;
+}

@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import Header from "../Header/Header";
 import "./Home.css";
+import About from "../About/About";
 const Home = () =>{
     // const [showHeader, setShowHeader] = useState(true);
     // const [startY, setStartY] = useState(0);
@@ -18,7 +19,8 @@ const Home = () =>{
     // };
     return(
         <div className = "Home">
-            <Header/>
+
+            <About/>
 
         </div>
     );

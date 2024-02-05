@@ -1,6 +1,10 @@
 import './App.css'
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
+import { BrowserRouter as Router} from "react-router-dom";
+import Routing from "./Routing";
+import React from "react";
+
 
 function App() {
     // const sections =[
@@ -10,9 +14,11 @@ function App() {
     //     {id:'projects', title: "Projects"},
     // ];
     return(
-        <div>
-            <Home/>
-        </div>
+        <Router>
+            <Header/>
+            <Routing/>
+        </Router>
+
         // <div className = "App">
         //     <Header sections = {sections}/>
         //     <main>

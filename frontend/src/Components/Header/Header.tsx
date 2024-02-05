@@ -7,7 +7,7 @@ function Header(sections){
     // }
     return(
         <div className="container-fluid">
-            <nav className = "navbar navbar-expand-lg navbar-light ">
+            <nav className = "navbar navbar-expand-lg navbar-light bg-primary-subtle ">
                 <div className="container-fluid">
                     <a class = "navbar-brand" href = "#">Dhanush Pakanati</a>
                     <button className = "navbar-toggler" type = "button" data-bs-toggle = "collapse"
@@ -18,13 +18,13 @@ function Header(sections){
                     <div className = "collapse navbar-collapse justify-content-center" id = "navbarNav">
                             <ul className = "navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link me-3 active" href = "#">Home</a>
+                                    <a className="nav-link me-3 active" href = "/home">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link me-3" href = "#">About</a>
+                                    <a className="nav-link me-3" href = "/about">About</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link me-3" href = "#">Contact</a>
+                                    <a className="nav-link me-3" href = "/contact">Contact</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link me-3" href = "#">Projects</a>
