@@ -1,7 +1,7 @@
 function ContactMeForm(){
     return (
         <div className="p-5">
-            <h1 className="pb-3">Get in touch</h1>
+            <h1 className="pb-3">Say Hello</h1>
             <form action="mailto:your-email@example.com" method="post" encType="text/plain">
                 <div className="mb-3">
                     <input type="text"  placeholder="Your Name" className="form-control" name="name"/>

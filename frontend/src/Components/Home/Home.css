@@ -4,3 +4,9 @@
 .hidden{
     display: none;
 }
+.h-70{
+    height: 60vh;
+}
+.h-30{
+    height: 25vh;
+}

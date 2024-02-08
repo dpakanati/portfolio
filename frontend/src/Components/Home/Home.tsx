@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Header from "../Header/Header";
 import "./Home.css";
 import About from "../About/About";
+import HomeIntro from "./Intro";
 const Home = () =>{
     // const [showHeader, setShowHeader] = useState(true);
     // const [startY, setStartY] = useState(0);
@@ -18,9 +19,28 @@ const Home = () =>{
     //     }
     // };
     return(
-        <div className = "Home">
+        <div className = "container-fluid">
+            <div className="h-70 bg-primary">
+                <div className = "container-fluid h-100">
+                    <div className="row h-100">
+                        <div className="col-9 bg-info">
+                            <HomeIntro/>
+                        </div>
+                        <div className="col-3 bg-warning">
+                            <img src = "src/assets/FullSizeRender.jpeg" className="w-100 h-100 custom_img " />
 
-            <About/>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div className="h-30 bg-secondary">
+                <h1>Section 2 - 30% viewport height</h1>
+            </div>
+
 
         </div>
     );
