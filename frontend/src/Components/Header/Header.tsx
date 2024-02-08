@@ -1,13 +1,10 @@
 import React from 'react'
 import "./Header.css"
-function Header(sections){
-    // const handleNavClick = (sectionId)=>{
-    //     const targetSection  = document.getElementById(sectionId);
-    //     targetSection?.scrollIntoView({behavior: "smooth"});
-    // }
+import {NavLink} from "react-router-dom";
+function Header(){
     return(
         <div className="container-fluid">
-            <nav className = "navbar navbar-expand-lg navbar-light bg-primary-subtle ">
+            <nav className = "navbar navbar-expand-lg navbar-light ">
                 <div className="container-fluid">
                     <a class = "navbar-brand" href = "/home">Dhanush Pakanati</a>
                     <button className = "navbar-toggler" type = "button" data-bs-toggle = "collapse"
@@ -18,16 +15,19 @@ function Header(sections){
                     <div className = "collapse navbar-collapse justify-content-center" id = "navbarNav">
                             <ul className = "navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link me-3 active" href = "/home">Home</a>
+                                    <NavLink className="nav-link me-3" activeClassName="active" exact to="/home">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link me-3" href = "/about">About</a>
+                                    <NavLink className="nav-link me-3" activeClassName="active" to="/about">About</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link me-3" href = "/contact">Contact</a>
+                                    <NavLink className="nav-link me-3" activeClassName="active" to="/contact">Contact</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link me-3" href = "#">Projects</a>
+                                    <NavLink className="nav-link me-3" activeClassName="active" to="/projects">Projects</NavLink>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link me-3" activeClassName="active" to="/resume">Resume</NavLink>
                                 </li>
                             </ul>
 

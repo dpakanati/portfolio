@@ -1,39 +1,36 @@
 import './About.css';
 import {Link} from "react-router-dom";
 import Header from "../Header/Header";
+import Technologies from "./Technologies/Technologies";
+import {ReactTyped} from "react-typed";
 function About() {
-  return (
-    <div className="container-fluid">
-        <h1> About Me</h1>
-        <div className="row">
-            <div className="col-8">
-                <div className="overflow-auto custom-scrollable border border-dark" >
-                    <p className="p-3 text-start ">What is Lorem Ipsum?
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    const para1 = "Welcome to my corner of the digital world. I'm a passionate computer engineer, holding a Master's degree from the University of Florida, specializing in Computer Science and Engineering."
+    const para2 =  "At 24 years old, I'm fueled by a relentless thirst for knowledge and a genuine love for technology" +
+        "I'm particularly drawn to the realms of mobile and web application development, where I've spent significant time honing my skills and crafting innovative solutions."
 
-                        Why do we use it?
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-                        Where does it come from?
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-                        Where can I get some?
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handf</p>
-
-                </div>
-                <div className="d-flex justify-content-evenly">
-                    <Link to="/contact" className="btn btn-primary mt-3">Send me a message</Link>
-                    <Link to="/contact" className="btn btn-primary mt-3">Resume</Link>
-                </div>
+    const para3 = "With over two years of experience as a software engineer, I've had the privilege of working on diverse projects encompassing both mobile and web development. This experience, coupled with my academic background, " +
+        "has equipped me with a robust skill set and a keen eye for detail. Alongside my professional endeavors, I've also dabbled in freelancing, seizing opportunities to expand my horizons and collaborate with clients from various domains."
+    return (
+    <div className="container-fluid mt-4 intro-height">
+        <div className=" d-flex flex-column justify-content-center h-100">
+            <h1 className="text-start">{""}<ReactTyped strings={["Hey, I'm Dhanush Pakanati"]} typeSpeed={100}  loop={false} /></h1>
+            <h5 className="text-start">Software Engineer with a passion to learn </h5>
+            <div className="mt-4 overflow-auto custom-scrollable" >
+                <p className="text-start ">
+                    {para1}
+                    <br/><br/>
+                    {para2}
+                    <br/><br/>
+                    {para3}
+                </p>
 
             </div>
-            <div className="col-4">
-                <p>Other content</p>
+            <div className="d-flex justify-content-evenly about-buttons">
+                <Link to="/contact" className="btn btn-primary mt-3">Send me a message</Link>
+                <Link to="/contact" className="btn btn-primary mt-3">Resume</Link>
             </div>
         </div>
+        <h1>sf</h1>
     </div>
   );
 }

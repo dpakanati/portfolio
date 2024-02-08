@@ -1,4 +1,10 @@
 .custom-scrollable {
-    height: 50vh;
+    max-heigh: 40vh;
     overflow-y: auto;
+}
+.intro-height{
+    height: 85vh;
+}
+.about-buttons{
+    justify-content: space-evenly !important;
 }
