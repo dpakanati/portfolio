@@ -1,7 +1,6 @@
 import './About.css';
 import {Link} from "react-router-dom";
 import Header from "../Header/Header";
-import Technologies from "./Technologies/Technologies";
 import {ReactTyped} from "react-typed";
 function About() {
     const para1 = "Welcome to my corner of the digital world. I'm a passionate computer engineer, holding a Master's degree from the University of Florida, specializing in Computer Science and Engineering."
