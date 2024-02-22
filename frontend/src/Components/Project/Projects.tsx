@@ -5,8 +5,8 @@ export function Projects(){
     const cardData = [
         {
             imageUrl: "/path/to/image1.jpg",
-            title: "Card Title 1",
-            text: "Some quick example text for Card 1",
+            title: "MyMovieList",
+            text: "MyMovieList web application is a movie and show cataloguing web application where the users can use a list-like system to track and score movies and shows.",
         },
         {
             imageUrl: "/path/to/image2.jpg",
@@ -37,7 +37,6 @@ export function Projects(){
     return(
         <div className="container-fluid  h-100 ">
             <h2 className="text-start" >Portfolio</h2>
-            {/*<h4 className="text-start">Welcome to my portfolio where innovation meets experimentation.</h4>*/}
             <h5 className="text-start">Dive in to discover the fruits of my labor and the intersection of my skills, curiosity, and  drive for excellence. </h5>
             <ProjectCard cardData = {cardData}/>
         </div>

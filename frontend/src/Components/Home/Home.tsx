@@ -24,7 +24,7 @@ const Home = () =>{
                             <HomeIntro/>
                         </div>
                         <div className="col-3 ">
-                            <img src = "src/assets/FullSizeRender.jpeg" className="w-100 h-100 custom_img " />
+                            <img src = "public/assets/FullSizeRender.jpeg" className="w-100 h-100 custom_img " />
 
 
                         </div>

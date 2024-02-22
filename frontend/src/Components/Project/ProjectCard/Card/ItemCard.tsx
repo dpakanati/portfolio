@@ -10,7 +10,7 @@ export function ItemCard(props: ItemCardProps){
         <div className="card p-0 w-100">
             <img className="card-img-top" src={imageURL} alt="Card image cap" />
             <div className="card-body">
-                <h5 className="card-title text-start">{title}e</h5>
+                <h5 className="card-title text-start">{title}</h5>
                 <p className="card-text  text-start">{text}</p>
             </div>
         </div>

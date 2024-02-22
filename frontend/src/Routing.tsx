@@ -8,6 +8,7 @@ const Routing = () =>{
     return (
         <Routes>
             <Route path = "/" exact element = {<Home/>}/>
+            <Route path = "/portfolio" element = {<Home/>}/>
             <Route path = "/about" element = {<About/>}/>
             <Route path = "/contact" element = {<Contact/>}/>
             <Route path = "/home" element = {<Home/>}/>
