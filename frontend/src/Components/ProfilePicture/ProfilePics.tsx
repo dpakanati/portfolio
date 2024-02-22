@@ -1,4 +1,3 @@
-import React from "react";
 import './ProfilePics.css';
 export function ProfilePics() {
     return (

@@ -1,10 +1,21 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  /*background-color: black;*/
+  /*color: white;*/
+}
+:root {
+  --primary-color: #000000; /* Dark theme primary color */
+  --secondary-color: #ffffff; /* Dark theme secondary color */
+  /* Add more variables as needed */
 }
 
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  /* Use the variables in other rules as needed */
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -31,10 +42,6 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
 }
 
 .read-the-docs {

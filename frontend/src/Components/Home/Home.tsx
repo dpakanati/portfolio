@@ -1,7 +1,4 @@
-import React, {useState} from "react";
-import Header from "../Header/Header";
 import "./Home.css";
-import About from "../About/About";
 import HomeIntro from "./Intro";
 const Home = () =>{
     // const [showHeader, setShowHeader] = useState(true);
@@ -19,14 +16,14 @@ const Home = () =>{
     //     }
     // };
     return(
-        <div className = "container-fluid">
-            <div className="h-70 bg-primary">
+        <div className = "container-fluid p-0">
+            <div className="h-70 ">
                 <div className = "container-fluid h-100">
                     <div className="row h-100">
-                        <div className="col-9 bg-info">
+                        <div className="col-9 ">
                             <HomeIntro/>
                         </div>
-                        <div className="col-3 bg-warning">
+                        <div className="col-3 ">
                             <img src = "src/assets/FullSizeRender.jpeg" className="w-100 h-100 custom_img " />
 
 
@@ -37,7 +34,7 @@ const Home = () =>{
 
 
             </div>
-            <div className="h-30 bg-secondary">
+            <div className="h-30 ">
                 <h1>Section 2 - 30% viewport height</h1>
             </div>
 

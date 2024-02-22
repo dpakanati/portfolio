@@ -35,7 +35,7 @@ export function Projects(){
         },
     ];
     return(
-        <div className="bg-primary h-100">
+        <div className="container-fluid  h-100 ">
             <h2 className="text-start" >Portfolio</h2>
             {/*<h4 className="text-start">Welcome to my portfolio where innovation meets experimentation.</h4>*/}
             <h5 className="text-start">Dive in to discover the fruits of my labor and the intersection of my skills, curiosity, and  drive for excellence. </h5>

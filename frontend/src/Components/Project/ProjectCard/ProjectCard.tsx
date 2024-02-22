@@ -1,15 +1,22 @@
 import "./ProjectCard.css"
 import {ItemCard} from "./Card/ItemCard";
-export function ProjectCard(props) {
+interface ProjectCardProps {
+    cardData: {
+        imageUrl: string;
+        title: string;
+        text: string;
+    }[];
+}
+export function ProjectCard(props:ProjectCardProps) {
     const {cardData} = props;
     const numRows = Math.ceil(cardData.length / 3);
-    const numCols = 3;
+    //const numCols = 3;
 
-    // Generate an array of indices for both rows and columns
+    // Generate an array of indices for both rows and columnsvitvite
     const rows = Array.from({ length: numRows }, (_, rowIndex) => rowIndex);
-    const cols = Array.from({ length: numCols }, (_, colIndex) => colIndex);
+    //const cols = Array.from({ length: numCols }, (_, colIndex) => colIndex);
     return (
-        <div className="container">
+        <div className="container-fluid p-0">
             {rows.map(rowIndex => (
                 <div key={rowIndex} className="row">
                     {cardData.slice(rowIndex * 3, (rowIndex + 1) * 3).map((card, index) => (

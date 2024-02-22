@@ -1,11 +1,10 @@
-import React from 'react'
 import "./Header.css"
-import {NavLink} from "react-router-dom";
+import {NavLink} from 'react-router-dom';
 function Header(){
     return(
-        <div className="container-fluid">
-            <nav className = "navbar navbar-expand-lg navbar-light ">
-                <div className="container-fluid">
+        <div className="container-fluid pt-3">
+            <nav className = "navbar navbar-expand-lg ">
+
                     <a class = "navbar-brand" href = "/home">Dhanush Pakanati</a>
                     <button className = "navbar-toggler" type = "button" data-bs-toggle = "collapse"
                             data-bs-target = "#navbarNav" aria-controls = "navbarNav" aria-expanded = "false"
@@ -51,7 +50,7 @@ function Header(){
                         </li>
 
                     </ul>
-                </div>
+
 
             </nav>
         </div>

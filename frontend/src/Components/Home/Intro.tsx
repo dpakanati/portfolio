@@ -1,5 +1,4 @@
 import './Intro.css'
-import {useEffect, useState} from "react";
 import {ReactTyped} from "react-typed";
 export function HomeIntro(){
     const texts = ["Full Stack Developer","Android Developer","Software Engineer"];

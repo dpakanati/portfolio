@@ -1,10 +1,5 @@
-import Header from "../Header/Header";
-import React from "react";
-//import contact.css
 import "./Contact.css";
 import ContactMeForm from "./ContactMeForm";
-import ScrollableCards from "../Cards/ScrollableCards";
-import ProfilePics from "../ProfilePicture/ProfilePics";
 function Contact(){
     return(
         <div className="container-fluid">

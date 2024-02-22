@@ -1,6 +1,4 @@
-.container-fluid{
-    background: transparent;
-}
+
 .navbar-nav .nav-item .nav-link.active {
     text-decoration: underline;
 }
