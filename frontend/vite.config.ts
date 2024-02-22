@@ -7,5 +7,6 @@ export default defineConfig({
       localsConvention: 'dashesOnly'
     },
   },
-  plugins: [react()]
+  plugins: [react()],
+  base:'/portfolio',
 })
