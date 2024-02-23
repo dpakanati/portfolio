@@ -43,7 +43,7 @@ export function Projects() {
     ];
     return (
         <div className="container-fluid  h-100 ">
-            <h2 className="text-start">Portfolio</h2>
+            <h1 className="text-start heading-font">Portfolio</h1>
             <h5 className="text-start">Dive in to discover the fruits of my labor and the intersection of my skills,
                 curiosity, and drive for excellence. </h5>
             <ProjectCard cardData={cardData}/>

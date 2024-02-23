@@ -6,6 +6,7 @@ import Routing from "./Routing";
 function App() {
 
     return (
+        
         <Router>
             <Header/>
             {/*<div style={{paddingTop: '70px'}}> /!* Add padding to the top *!/*/}

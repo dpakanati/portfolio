@@ -3,9 +3,9 @@ import {NavLink} from 'react-router-dom';
 
 function Header() {
     return (
-        <div className="container-fluid pt-3 fixed-header">
+        <div className="container-fluid  mt-3 fixed-header">
             <nav className="navbar navbar-expand-lg ">
-                <a class="navbar-brand" href="/home">Dhanush Pakanati</a>
+                <a class="navbar-brand" href="/home"><h4>Dhanush Pakanati</h4></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -14,20 +14,24 @@ function Header() {
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <NavLink className="nav-link me-3" activeClassName="active" exact to="/home">Home</NavLink>
+                            <NavLink className="nav-link me-3" activeClassName="active" exact to="/home"><h5>Home</h5>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link me-3" activeClassName="active" to="/about">About</NavLink>
+                            <NavLink className="nav-link me-3" activeClassName="active" to="/about"><h5>About</h5>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link me-3" activeClassName="active" to="/contact">Contact</NavLink>
+                            <NavLink className="nav-link me-3" activeClassName="active" to="/contact"><h5>Contact</h5>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link me-3" activeClassName="active"
-                                     to="/projects">Projects</NavLink>
+                                     to="/projects"><h5>Projects</h5></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link me-3" activeClassName="active" to="/resume">Resume</NavLink>
+                            <NavLink className="nav-link me-3" activeClassName="active" to="/resume"><h5>Resume</h5>
+                            </NavLink>
                         </li>
                     </ul>
 

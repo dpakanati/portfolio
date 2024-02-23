@@ -10,3 +10,8 @@
     z-index: 1020;
 }
 
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* Set a semi-transparent background color */
+    backdrop-filter: blur(1px); /* Apply a blur filter to the background */
+}
+
