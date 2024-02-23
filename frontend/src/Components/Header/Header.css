@@ -2,3 +2,11 @@
 .navbar-nav .nav-item .nav-link.active {
     text-decoration: underline;
 }
+
+.fixed-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+

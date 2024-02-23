@@ -1,5 +1,6 @@
 import "./ProjectCard.css"
 import {ItemCard} from "./Card/ItemCard";
+
 interface ProjectCardProps {
     cardData: {
         imageUrl: string;
@@ -7,13 +8,14 @@ interface ProjectCardProps {
         text: string;
     }[];
 }
-export function ProjectCard(props:ProjectCardProps) {
+
+export function ProjectCard(props: ProjectCardProps) {
     const {cardData} = props;
     const numRows = Math.ceil(cardData.length / 3);
     //const numCols = 3;
 
     // Generate an array of indices for both rows and columnsvitvite
-    const rows = Array.from({ length: numRows }, (_, rowIndex) => rowIndex);
+    const rows = Array.from({length: numRows}, (_, rowIndex) => rowIndex);
     //const cols = Array.from({ length: numCols }, (_, colIndex) => colIndex);
     return (
         <div className="container-fluid p-0">
@@ -21,7 +23,7 @@ export function ProjectCard(props:ProjectCardProps) {
                 <div key={rowIndex} className="row">
                     {cardData.slice(rowIndex * 3, (rowIndex + 1) * 3).map((card, index) => (
                         <div key={index} className="col-sm-4 d-flex align-items-stretch">
-                            <ItemCard imageUrl={card.imageUrl} title={card.title} text={card.text} />
+                            <ItemCard imageURL={card.imageUrl} title={card.title} text={card.text}/>
                         </div>
                     ))}
                 </div>
@@ -40,4 +42,5 @@ export function ProjectCard(props:ProjectCardProps) {
         // </div>
     );
 }
+
 export default ProjectCard;
