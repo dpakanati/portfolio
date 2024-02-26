@@ -9,7 +9,7 @@ interface ItemCardProps {
 export function ItemCard(props: ItemCardProps) {
     const {imageURL, title, text} = props;
     return (
-        <div className="card p-0 w-100">
+        <div className="card mb-2 p-0 w-100">
             <img className="card-img-top" src={imageURL} alt="Card image cap"/>
             <div className="card-body">
                 <h5 className="card-title text-start">{title}</h5>

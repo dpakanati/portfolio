@@ -28,7 +28,7 @@ export function Projects() {
         {
             imageUrl: "/path/to/image5.jpg",
             title: "Twitter Clone - Android Native",
-            text: "Some quick example text for Card 5.",
+            text: "An android application that imitates working of twitter including functionalities of login, registration, profile settings, add tweets with images, hashtags, follow users, search posts based on hashtags and user feed.",
         },
         {
             imageUrl: "/path/to/image6.jpg",
