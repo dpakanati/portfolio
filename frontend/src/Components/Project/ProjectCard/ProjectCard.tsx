@@ -6,6 +6,7 @@ interface ProjectCardProps {
         imageUrl: string;
         title: string;
         text: string;
+        gitUrl: string;
     }[];
 }
 
@@ -23,7 +24,8 @@ export function ProjectCard(props: ProjectCardProps) {
                 <div key={rowIndex} className="row">
                     {cardData.slice(rowIndex * 3, (rowIndex + 1) * 3).map((card, index) => (
                         <div key={index} className="col-sm-4 d-flex align-items-stretch">
-                            <ItemCard imageURL={card.imageUrl} title={card.title} text={card.text}/>
+                            <ItemCard imageURL={card.imageUrl} title={card.title} text={card.text}
+                                      gitUrl={card.gitUrl}/>
                         </div>
                     ))}
                 </div>

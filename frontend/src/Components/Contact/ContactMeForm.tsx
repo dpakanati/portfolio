@@ -6,7 +6,7 @@ function ContactMeForm() {
                 <div className="mb-3">
                     <input type="text" placeholder="Name.." className="form-control" name="name"/>
                 </div>
-                <div className="mb-3">
+                <div className="mb-3 ">
                     <input type="email" placeholder="Email Address.." className="form-control" name="email"/>
                 </div>
                 <div className="mb-3">

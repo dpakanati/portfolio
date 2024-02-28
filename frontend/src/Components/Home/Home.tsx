@@ -35,7 +35,7 @@ const Home = () => {
 
 
             </div>
-            <div className="h-30 ">
+            <div className="h-15 ">
                 <h1>Section 2 - 30% viewport height</h1>
             </div>
 

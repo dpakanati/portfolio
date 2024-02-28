@@ -1,12 +1,15 @@
-.visible{
+.visible {
     display: block;
 }
-.hidden{
+
+.hidden {
     display: none;
 }
-.h-70{
-    height: 60vh;
+
+.h-70 {
+    height: 70vh;
 }
-.h-30{
-    height: 25vh;
+
+.h-15 {
+    height: 15vh;
 }
