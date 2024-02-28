@@ -1,11 +1,11 @@
 import "./Header.css"
 import {NavLink} from 'react-router-dom';
 
-function Header() {
+function Header({onDarkModeToggle}) {
     return (
         <div className="container-fluid  mt-3 fixed-header">
             <nav className="navbar navbar-expand-lg ">
-                <a class="navbar-brand" href="/home"><h4>Dhanush Pakanati</h4></a>
+                <a className="navbar-brand" href="/home"><h4>Dhanush Pakanati</h4></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -68,6 +68,9 @@ function Header() {
                     </li>
 
                 </ul>
+                <button onClick={onDarkModeToggle}>
+                    Toggle Dark Mode
+                </button>
 
 
             </nav>

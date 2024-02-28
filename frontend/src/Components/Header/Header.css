@@ -10,8 +10,22 @@
     z-index: 1020;
 }
 
+.navbar-brand, .nav-link {
+    color: var(--light-text);
+}
+
+body.dark .navbar-brand, body.dark .nav-link {
+    color: var(--dark-text);
+}
+
 .navbar {
-    background-color: rgba(255, 255, 255, 0.8); /* Set a semi-transparent background color */
-    backdrop-filter: blur(1px); /* Apply a blur filter to the background */
+    /*background-color: rgba(255, 255, 255, 0.8); !* Set a semi-transparent background color *!*/
+    /*backdrop-filter: blur(1px); !* Apply a blur filter to the background *!*/
+    color: var(--light-text);
+}
+
+body.dark .navbar {
+    /*background-color: rgba(0, 0, 0, 0.8); !* Set a semi-transparent background color *!*/
+    color: var(--dark-text);
 }
 
