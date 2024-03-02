@@ -3,3 +3,11 @@
     object-fit: contain;
 }
 
+body.dark .form-control {
+    background-color: var(--dark-background);
+    color: var(--dark-text);
+}
+
+body.dark .form-control::placeholder {
+    color: var(--dark-text);
+}

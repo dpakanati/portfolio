@@ -9,7 +9,8 @@ export function HomeIntro() {
 
             <h1>Dhanush Pakanati</h1>
             <div>
-                <h4> {""}<ReactTyped strings={texts} typeSpeed={100} backSpeed={30} loop={true}/></h4>
+                <h4 className="h4-typewriter"> {""}<ReactTyped strings={texts} typeSpeed={100} backSpeed={30}
+                                                               loop={true}/></h4>
             </div>
             <div>
                 <p className="text-start ">{intro}</p>

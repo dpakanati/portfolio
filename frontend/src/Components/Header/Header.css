@@ -1,16 +1,21 @@
-
-.navbar-nav .nav-item .nav-link.active {
-    text-decoration: underline;
-}
-
 .fixed-header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
+    backdrop-filter: blur(10px); /* Add this line */
 }
 
-.navbar-brand, .nav-link {
+.nav-link.active {
+    text-decoration: underline;
+    color: var(--light-text);
+}
+
+body.dark .nav-link.active {
+    color: var(--dark-text); /* Add this line */
+}
+
+.navbar-brand .nav-link .navbar {
     color: var(--light-text);
 }
 
@@ -18,14 +23,6 @@ body.dark .navbar-brand, body.dark .nav-link {
     color: var(--dark-text);
 }
 
-.navbar {
-    /*background-color: rgba(255, 255, 255, 0.8); !* Set a semi-transparent background color *!*/
-    /*backdrop-filter: blur(1px); !* Apply a blur filter to the background *!*/
-    color: var(--light-text);
-}
 
-body.dark .navbar {
-    /*background-color: rgba(0, 0, 0, 0.8); !* Set a semi-transparent background color *!*/
-    color: var(--dark-text);
-}
+
 

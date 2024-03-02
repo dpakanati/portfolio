@@ -1,3 +1,5 @@
+import "./Contact.css"
+
 function ContactMeForm() {
     return (
         <div className="pt-5">

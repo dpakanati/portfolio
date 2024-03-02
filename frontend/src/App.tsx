@@ -10,7 +10,6 @@ function App() {
         document.body.classList.toggle('dark', isDarkMode);
     }, [isDarkMode]);
     return (
-
         <Router>
             <Header onDarkModeToggle={() => setIsDarkMode(!isDarkMode)}/>
             {/*<div style={{paddingTop: '70px'}}> /!* Add padding to the top *!/*/}
@@ -18,8 +17,6 @@ function App() {
             {/*</div>*/}
             <Routing/>
         </Router>
-
-
     );
 }
 
