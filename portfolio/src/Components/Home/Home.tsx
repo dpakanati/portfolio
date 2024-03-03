@@ -25,9 +25,7 @@ const Home = () => {
                             <HomeIntro/>
                         </div>
                         <div className="col-3 ">
-                            <img src="public/assets/images/FullSizeRender.jpeg" className="w-100 h-100 custom_img "/>
-
-
+                            <img src="/portfolio/images/FullSizeRender.jpeg" className="w-100 h-100 custom_img "/>
                         </div>
 
                     </div>
@@ -36,7 +34,7 @@ const Home = () => {
 
             </div>
             <div className="h-15 ">
-                <h1>Section 2 - 30% viewport height</h1>
+                <h1>Site Under Development</h1>
             </div>
 
 

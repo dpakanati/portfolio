@@ -3,14 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://dpakanati.github.io/portfolio/",
   "scripts": {
     "dev": "vite",
     "start": "npm run dev",
-    "build": "tsc && vite build && copyfiles -u 1 public/assets/**/* dist",
+    "build": "vite build && copyfiles -u 1 public/assets/**/* dist",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "rm -rf dist",
-    "deploy": "vite build && gh-pages -d dist",
+    "predeploy": "vite build && copyfiles -u 1 public/assets/**/* dist",
+    "deploy": "gh-pages -d dist",
     "clean": "rm -rf dist"
   },
   "dependencies": {

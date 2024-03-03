@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: 'typewriter';
-    src: url('public/assets/data/fonts/Exo_2/Exo2-VariableFont_wght.ttf') format('truetype');
+    src: url("/fonts/Exo2-VariableFont_wght.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
