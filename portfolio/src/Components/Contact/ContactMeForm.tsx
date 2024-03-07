@@ -13,7 +13,7 @@ function ContactMeForm() {
                 </div>
                 <div className="mb-3">
 
-                    <textarea className="form-control" placeholder="Type message.." name="message"></textarea>
+                    <textarea className="form-control" placeholder="Type message.." rows="8" name="message"></textarea>
                 </div>
                 <div className="text-start">
                     <button type="submit" className="btn btn-primary">Submit</button>

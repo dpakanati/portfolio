@@ -18,11 +18,11 @@ export function PersonalDetails() {
                 href="https://www.linkedin.com/in/pdhanush?trk=profile-badge"></a></div>
             <p>
 
-                <img className="pe-1" src="/images/email_552486.png" width="24"
+                <img className="me-1" src="/images/email_552486.png" width="24"
                      height="24"/>
                 dhanushpakanati@gmail.com <br/>
 
-                <img className="pe-1" src="/images/telephone-call_3059606.png" width="24"
+                <img className="me-1" src="/images/telephone-call_3059606.png" width="24"
                      height="24"/>
                 +1 (380)-213-7125
             </p>

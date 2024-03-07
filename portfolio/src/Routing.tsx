@@ -8,6 +8,7 @@ import Resume from "./Components/Resume/Resume";
 
 const Routing = () => {
     return (
+
         <Routes>
             <Route path="/" exact element={<Home/>}/>
             <Route path="/portfolio" element={<Home/>}/>
@@ -17,6 +18,8 @@ const Routing = () => {
             <Route path="/projects" element={<Projects/>}/>
             <Route path="/resume" element={<Resume/>}/>
         </Routes>
+
+
     );
 }
 export default Routing;
