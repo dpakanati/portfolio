@@ -1,22 +1,23 @@
 import './App.css'
 import Header from "./Components/Header/Header";
 import {BrowserRouter as Router} from "react-router-dom";
-import Routing from "./Routing";
 import React, {useEffect} from "react";
+import Routing from "./Routing";
 
 function App() {
-    const [isDarkMode, setIsDarkMode] = React.useState(false);
+    const [isDarkMode, setIsDarkMode] = React.useState(true);
     useEffect(() => {
         document.body.classList.toggle('dark', isDarkMode);
     }, [isDarkMode]);
     return (
-        <Router>
-            <Header onDarkModeToggle={() => setIsDarkMode(!isDarkMode)}/>
-            {/*<div style={{paddingTop: '70px'}}> /!* Add padding to the top *!/*/}
-            {/*    <Routing/>*/}
-            {/*</div>*/}
-            <Routing/>
-        </Router>
+        <div>
+            <Router>
+                <Header onDarkModeToggle={() => setIsDarkMode(!isDarkMode)}/>
+
+                <Routing/>
+            </Router>
+        </div>
+
     );
 }
 
