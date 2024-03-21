@@ -25,6 +25,7 @@ export function ItemCard(props: ItemCardProps) {
         //         <p className="card-text  text-start">{text}</p>
         //     </div>
         // </div>
+
     )
 }
 

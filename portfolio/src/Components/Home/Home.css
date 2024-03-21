@@ -13,3 +13,9 @@
 .h-15 {
     height: 15vh;
 }
+
+.upper-semi-border {
+    border-top: 10px solid var(--dark-secondary);
+    width: 20%;
+    display: block;
+}

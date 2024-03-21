@@ -1,7 +1,7 @@
 export function Skills() {
     return (
         <div>
-            <h3 className="resume-title">Skills and Achievements</h3>
+            <h4 className="resume-title">Skills and Achievements</h4>
             <div className="resume-item">
                 <h4>Programming Languages</h4>
                 <p>Oracle 11g, MySQL, SQLite, Firebase Realtime, MongoDB, PostgreSQL, ROOM</p>

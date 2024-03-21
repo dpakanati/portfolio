@@ -11,12 +11,17 @@
     height: 150px;
     cursor: pointer;
     transition: all .5s ease-in-out;
+    background-color: var(--light-bg) !important;
+    color: var(--light-txt) !important;
+
 }
 
 body.dark .card {
     border: 1px solid white;
-    background-color: var(--dark-background);
-    color: var(--dark-text);
+    background-color: var(--dark-bg);
+    color: var(--dark-txt) !important;
+    background-color: var(--dark-bg) !important;
+
 }
 
 /*a:hover {*/

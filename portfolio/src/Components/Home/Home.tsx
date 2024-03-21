@@ -1,5 +1,6 @@
 import "./Home.css";
 import HomeIntro from "./Intro";
+import {AnimatePresence, easeInOut, motion} from "framer-motion";
 
 const Home = () => {
     // const [showHeader, setShowHeader] = useState(true);
@@ -24,8 +25,16 @@ const Home = () => {
                         <div className="col-9 ">
                             <HomeIntro/>
                         </div>
-                        <div className="col-3 ">
-                            <img src="/portfolio/images/FullSizeRender.jpeg" className="w-100 h-100 custom_img "/>
+                        <div className="col-3 d-flex justify-content-center">
+                            <AnimatePresence>
+                                <motion.div initial={{x: 100, opacity: 0}}
+                                            animate={{x: 0, opacity: 1, transition: {duration: 1.5, ease: easeInOut}}}
+                                            exit={{x: 100, opacity: 0, transition: {duration: 1.5, ease: easeInOut}}}>
+                                    <img src="/portfolio/images/FullSizeRender.png"
+                                         className="w-100 h-100 custom_img "/>
+                                </motion.div>
+                            </AnimatePresence>
+
                         </div>
 
                     </div>

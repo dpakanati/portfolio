@@ -1,7 +1,7 @@
 export function Projects() {
     return (
         <div>
-            <h3 className="resume-title">Projects</h3>
+            <h4 className="resume-title">Projects</h4>
             <div className="resume-item">
                 <h4>Twitter Engine Simulator using Actor Model</h4>
                 <p className=""><em><b>University of Florida, </b><h5>Erlang</h5></em></p>

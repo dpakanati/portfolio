@@ -8,5 +8,35 @@
 }
 
 .about-buttons {
-    justify-content: space-evenly !important;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background-color: var(--dark-secondary) !important;
+    border-radius: 1em !important;
+    padding: 10px 20px !important;
+}
+
+body.dark h5.text-start {
+    color: var(--dark-secondary);
+}
+
+
+body.dark .btn {
+    color: var(--light-txt) !important;
+    background-color: var(--dark-secondary) !important;
+    border-radius: 50px !important;
+    padding: 10px 20px !important;
+}
+
+body.dark .btn:hover {
+    background-color: #a69385 !important;
+    border: 1px solid #000000;
+    color: var(--light-txt) !important;
+}
+
+.btn:hover {
+    background-color: #a69385 !important;
+    border: 1px solid #000000;
+    color: inherit !important;
 }

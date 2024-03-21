@@ -1,10 +1,10 @@
 export function Summary() {
     return (
         <div>
-            <h3 className="resume-title">Summary</h3>
+            <h4 className="resume-title">Summary</h4>
             <div className="resume-item pb-0 ">
                 <h4>Dhanush Pakanati</h4>
-                <p><em>Innovative and deadline-driven Software Engineer with experience designing
+                <p><em>Innovative Software Engineer with experience designing
                     and developing full stack and android applications.</em></p>
                 <p>
                     <ul className="noliststyle">

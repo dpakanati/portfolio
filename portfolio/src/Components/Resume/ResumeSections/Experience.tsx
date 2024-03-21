@@ -1,7 +1,7 @@
 export function Experience() {
     return (
         <div>
-            <h3 className="resume-title">Experience</h3>
+            <h4 className="resume-title">Experience</h4>
             <div className="resume-item">
                 <h4>Software Engineer</h4>
                 <p className=""><em><b>Node Tek Technologies, </b><h5>08/2023 - Present</h5></em></p>

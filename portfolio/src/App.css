@@ -1,64 +1,24 @@
 #root {
     max-width: 1280px;
     margin: 0 auto;
-    text-align: center;
-    /*background-color: black;*/
-    /*color: white;*/
 }
 
 :root {
-    --light-background: #ffffff;
-    --light-text: #000000;
+    --light-bg: #fdfbf4;
+    --light-txt: #1f295e;
 
-    --dark-background: #000000;
-    --dark-text: #ffffff;
+    --dark-bg: #000e0e;
+    --dark-txt: #e1e9f6;
+    --dark-secondary: #cab6a0;
 }
 
 body {
-    background-color: var(--light-background);
-    color: var(--light-text);
+    background-color: var(--light-bg) !important;
+    color: var(--light-txt) !important;
 }
 
 body.dark {
-    background-color: var(--dark-background);
-    color: var(--dark-text);
+    background-color: var(--dark-bg) !important;
+    color: var(--dark-txt) !important;
 }
 
-.logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-}
-
-.logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    a:nth-of-type(2) .logo {
-        animation: logo-spin infinite 20s linear;
-    }
-}
-
-.read-the-docs {
-    color: #888;
-}
-
-.bg-dark {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-}

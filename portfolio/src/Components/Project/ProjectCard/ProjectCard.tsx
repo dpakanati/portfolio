@@ -14,7 +14,6 @@ export function ProjectCard(props: ProjectCardProps) {
     const {cardData} = props;
     const numRows = Math.ceil(cardData.length / 3);
     //const numCols = 3;
-
     // Generate an array of indices for both rows and columnsvitvite
     const rows = Array.from({length: numRows}, (_, rowIndex) => rowIndex);
     //const cols = Array.from({ length: numCols }, (_, colIndex) => colIndex);

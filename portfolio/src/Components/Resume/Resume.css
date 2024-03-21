@@ -7,13 +7,13 @@
 }
 
 body.dark .resume .resume-title {
-    color: var(--dark-text);
+    color: var(--dark-txt);
 }
 
 .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #82909c;
+    border-left: 2px solid var(--dark-secondary);
     position: relative;
 }
 
@@ -37,7 +37,7 @@ body.dark .resume .resume-title {
 
 body.dark .resume .resume-item h5 {
     background: #3b434a;
-    color: var(--dark-text);
+    color: var(--dark-txt);
 }
 
 .resume .resume-item ul {
@@ -60,7 +60,7 @@ body.dark .resume .resume-item h5 {
     border-radius: 50px;
     left: -9px;
     top: 0;
-    background: #fff;
+    background: var(--dark-secondary);
     border: 2px solid #82909c;
 }
 

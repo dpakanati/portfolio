@@ -10,13 +10,13 @@ const Routing = () => {
     return (
 
         <Routes>
-            <Route path="/" exact element={<Home/>}/>
+
             <Route path="/portfolio" element={<Home/>}/>
-            <Route path="/about" element={<About/>}/>
-            <Route path="/contact" element={<Contact/>}/>
-            <Route path="/home" element={<Home/>}/>
-            <Route path="/projects" element={<Projects/>}/>
-            <Route path="/resume" element={<Resume/>}/>
+            <Route path="portfolio/about" element={<About/>}/>
+            <Route path="portfolio/contact" element={<Contact/>}/>
+            <Route path="portfolio/home" element={<Home/>}/>
+            <Route path="portfolio/projects" element={<Projects/>}/>
+            <Route path="portfolio/resume" element={<Resume/>}/>
         </Routes>
 
 
