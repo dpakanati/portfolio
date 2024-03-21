@@ -5,11 +5,11 @@ function Header({onDarkModeToggle}) {
     return (
         <div className="container-fluid  mt-3 fixed-header">
             <nav className="navbar navbar-expand-lg ">
-                {/*<a className="navbar-brand " href="/portfolio/home"><h4>DP</h4></a>*/}
                 <NavLink className="navbar-brand me-3" activeClassName="active" exact to="portfolio/home">
                     <h4>DP</h4>
                 </NavLink>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                {/*this is a bootstrap button. to change animation for this edit this button*/}
+                <button className="navbar-toggler ms-auto me-3" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                         aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -41,15 +41,13 @@ function Header({onDarkModeToggle}) {
                             </NavLink>
                         </li>
                     </ul>
-
                 </div>
 
-                <ul className="navbar-nav ms-auto">
+                <ul className="navbar-nav link-items ">
                     <li className="nav-item">
 
                         <a className="nav-link me-3" href="https://www.linkedin.com/in/pdhanush/" target="_blank"
                            rel="noopener noreferrer">
-
                             <img src="/portfolio/images/linkedin_2504923.png" alt="linkedin" width="24" height="24"/>
 
                         </a>
@@ -57,7 +55,6 @@ function Header({onDarkModeToggle}) {
                     <li className="nav-item">
                         <a className="nav-link me-3" href="https://www.github.com" target="_blank"
                            rel="noopener noreferrer">
-
                             <img src="/portfolio/images/github_733553.png" alt="github" width="24" height="24"/>
 
                         </a>
@@ -65,16 +62,13 @@ function Header({onDarkModeToggle}) {
                     <li className="nav-item">
                         <a className="nav-link me-3" href="mailto:dhanushpakanati@gmail.com" target="_blank"
                            rel="noopener noreferrer">
-
                             <img src="/portfolio/images/email_552486.png" alt="email" width="24" height="24"/>
 
                         </a>
                     </li>
                 </ul>
 
-                {/*<button onClick={onDarkModeToggle}>*/}
-                {/*    Toggle Dark Mode*/}
-                {/*</button>*/}
+
                 <label className="switch">
                     <input type="checkbox" className="input__check" onChange={onDarkModeToggle}/>
                     <span className="slider"></span>

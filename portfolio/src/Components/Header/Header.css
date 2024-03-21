@@ -1,13 +1,20 @@
 .fixed-header {
-    position: -webkit-sticky;
+    /*position: -webkit-sticky;*/
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 1000;
     backdrop-filter: blur(10px); /* Add this line */
 }
 
 body.dark .nav-link.active {
     color: var(--dark-secondary) !important;
+}
+
+.navbar-toggler {
+    position: center;
+}
+
+.navbar-toggler.collapsed {
 }
 
 body.dark .nav-link.active {
@@ -27,17 +34,12 @@ body.dark .navbar-brand {
 }
 
 @media (max-width: 992px) {
-    body.dark .navbar-collapse {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.9); /* Change this to match your design */
-        z-index: 1000; /* This should be higher than the z-index of your other elements */
+    .navbar-nav.link-items {
+        display: none;
     }
-}
 
+
+}
 
 /* The switch - the box around the slider */
 .switch {
@@ -116,13 +118,18 @@ body.dark .navbar-brand {
 }
 
 @keyframes toggle__animation {
-    0%, 100% {
-        transform: translateY(-10px) rotateX(15deg) rotateY(-20deg);
-    }
 
-    50% {
+    /*0%, 100% {*/
+    /*    transform: translateY(-10px) rotateX(15deg) rotateY(-20deg);*/
+    /*}*/
+
+    /*50% {*/
+    /*    transform: translateY(0px) rotateX(15deg) rotateY(-20deg);*/
+    /*}*/
+    0%, 100% {
         transform: translateY(0px) rotateX(15deg) rotateY(-20deg);
     }
+
 }
 
 
