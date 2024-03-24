@@ -4,7 +4,6 @@ import {AnimatePresence, easeInOut, motion} from "framer-motion";
 import {ReactTyped} from "react-typed";
 
 export function HomeIntro() {
-    const texts = ["Full Stack Developer", "Android Developer", "Software Engineer", "Data Science Enthusiast"];
     return (
         <div className="d-flex flex-column justify-content-center align-items-start h-100">
             <AnimatePresence>

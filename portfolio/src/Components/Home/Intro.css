@@ -72,12 +72,19 @@
 
 .custom_img {
     object-fit: contain;
-    filter: drop-shadow(7px 5px 7px red);
+    /*filter: drop-shadow(7px 5px 7px red);*/
+}
+
+@media (max-width: 767px) {
+    .custom_img {
+        max-width: 200px;
+        height: auto;
+    }
 }
 
 body.dark .custom_img {
     object-fit: contain;
-    filter: drop-shadow(7px 5px 7px var(--dark-secondary));
+    /*filter: drop-shadow(7px 5px 7px var(--dark-secondary));*/
 }
 
 body.dark .main-title {

@@ -9,17 +9,34 @@ function About() {
         "has equipped me with a robust skill set and a keen eye for detail. Alongside my professional endeavors, I've also dabbled in freelancing, seizing opportunities to expand my horizons and collaborate with clients from various domains."
     return (
         <AnimatePresence>
-            <motion.div key="scrolling-text" initial={{y: 100, z: -100, opacity: 0}}
-                        animate={{y: 0, z: 0, opacity: 1, transition: {duration: 1.0, ease: easeIn}}}>
+            <motion.div key="scrolling-text" initial={{y: 100, opacity: 0}}
+                        animate={{y: 0, opacity: 1, transition: {duration: 1.0, ease: easeIn}}}>
                 <div className="container-fluid mt-4 intro-height p-0">
-                    <div className=" d-flex flex-column container-fluid justify-content-center h-100">
+                    <div className="container-fluid justify-content-center h-100">
 
                         <h1 className="main-title mb-3 text-start ">Hi!! I'm Dhanush Pakanati</h1>
-                        <h5 className="text-start">Software Engineer with a passion to learn </h5>
-                        <p className="text-start mb-3 d-flex align-items-center "><span
-                            className="fw-bold display-5 me-2 ">2+ </span> years of
-                            professional experience..</p>
-                        <div className="mt-4 overflow-auto custom-scrollable">
+                        <div className="row flex-column flex-sm-row">
+                            <div className="col-sm">
+                                <h5 className="text-start">Software Engineer with a passion to learn </h5>
+                                {/*<p className="mb-3 d-flex align-items-center  "><span*/}
+                                {/*    className="fw-bold display-5 me-2 ">2+ </span> years of*/}
+                                {/*    professional experience..</p>*/}
+                                <div className="d-flex align-items-center mt-sm-3">
+                                    <span className="fw-bold display-2 me-2">2+ </span>
+                                    <p className="text-start mb-0 mt-sm-2">years of professional experience..</p>
+                                </div>
+
+
+                            </div>
+                            <div className="col-sm mt-3 mt-sm-0">
+                                <img
+                                    src="https://github-readme-stats.vercel.app/api/top-langs?username=dpakanati&&hide_progress=true&size_weight=0.5&count_weight=0.5&locale=en&hide_title=false&card_width=320&langs_count=8&theme=github_dark&hide_border=false%22%20height=%22150%22%20alt=%22languages%20graph%22"
+                                    className="img-fluid"/>
+                            </div>
+                        </div>
+
+
+                        <div className="mt-4">
                             <p className="text-start ">
                                 {para1}
                                 <br/><br/>
@@ -34,7 +51,6 @@ function About() {
 
                         </div>
                     </div>
-                    <h3>Need To Update.</h3>
                 </div>
 
             </motion.div>

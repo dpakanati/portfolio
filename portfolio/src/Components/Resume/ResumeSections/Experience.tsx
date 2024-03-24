@@ -3,42 +3,43 @@ export function Experience() {
         <div>
             <h4 className="resume-title">Experience</h4>
             <div className="resume-item">
-                <h4>Software Engineer</h4>
-                <p className=""><em><b>Node Tek Technologies, </b><h5>08/2023 - Present</h5></em></p>
+                <h4>Software Engineer +
+                    {/*add image here*/}
+
+                </h4>
+                <p className=""><em><b>Node Tek Technologies, </b><h5>08/2023 - Present</h5></em>
+                    {/*<img className="ms-2" src="/portfolio/images/expand.gif" width="25" height="25"/>*/}
+
+                </p>
                 <p>
                     <ul>
-                        <li>Employed MVVM app architecture to improve the application’s maintainability, extensibility,
-                            and testing quality.
+                        <li>Created a Single Page Application (SPA) utilizing HTML5, CSS3, React, and Vite, enhancing
+                            the web interface, resulting
+                            in a 21% increase in mobile user engagement. Utilized React JS Router, Forms, Events,
+                            States, Props, Hooks, and
+                            Animations for application development.
                         </li>
-                        <li>Developed web views and list views to effectively display and present data utilizing
-                            database and web apis to populate lists.
+                        <li>Spearheaded the integration of MongoDB, developing complex schemas and data services that
+                            improved data accessibility,
+                            resulting in a 25% increase in data retrieval speed and overall system performance.
                         </li>
-                        <li>Designed and implemented Async Tasks, services, and Alert Notification API to reduce delay
-                            in fetching data from REST
-                            API Services and provide consistent app alerts.
-                        </li>
-                        <li>
-                            Optimized data presentation across multiple fragments &ViewModels with a shared Generic
-                            Recycler View component.
-                        </li>
-                        <li>
-                            Implemented navigation between the fragments using navigation graphs with xml. Created
-                            modules, components, and
-                            custom scopes using Dagger2 for loose coupling.
+                        <li>Developed server-side logic using NodeJS and Express Network, integrating middleware to
+                            manage HTTP requests
+                            effectively. Employed Express for Routing, cookie, and session management to ensure secure
+                            HTTP requests.
                         </li>
                         <li>
-                            Implemented LiveData builder within MVVM architecture, integrating Kotlin Coroutines with
-                            LiveData Coroutines
-                            Asynchronous Flow for efficient handling of data updates and UI transitions.
+                            Contributed to the design and implementation of Restful APIs and services for interacting
+                            with the data storage layer.
                         </li>
                         <li>
-                            Utilized Retrofit for seamless network communication, response parsing, efficient API calls
-                            to REST endpoints.
+                            Created reusable React components and functions, facilitating future page development.
+                            Conducted unit testing using
+                            Jasmine and Karma to ensure code quality and functionality.
                         </li>
                         <li>
-                            Integrated application with Firebase (Firebase Analytics, Crashlytics, Firebase Performance
-                            Monitoring) for user
-                            authentication, information storage and enhance application performance and usability.
+                            Participated in daily stand-up meetings, collaborating with the QA team, and adhering to
+                            Agile methodologies.
                         </li>
                     </ul>
                 </p>

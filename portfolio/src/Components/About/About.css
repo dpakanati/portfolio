@@ -1,5 +1,5 @@
-.custom-scrollable {
-    max-height: 40vh;
+.overflow-auto.custom-scrollable {
+    max-height: 90vh;
     overflow-y: auto;
 }
 
