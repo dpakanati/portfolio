@@ -4,7 +4,7 @@ export function Summary() {
             <h4 className="resume-title">Summary</h4>
             <div className="resume-item pb-0 ">
                 <h4>Dhanush Pakanati</h4>
-                <p><em>Innovative Software Engineer with experience designing
+                <p><em>Software Engineer designing
                     and developing full stack and android applications.</em></p>
                 <p>
                     <ul className="noliststyle">

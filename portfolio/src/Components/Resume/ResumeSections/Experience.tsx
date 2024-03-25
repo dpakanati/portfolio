@@ -1,9 +1,11 @@
+import "../Resume.css";
+
 export function Experience() {
     return (
         <div>
             <h4 className="resume-title">Experience</h4>
             <div className="resume-item">
-                <h4>Software Engineer +
+                <h4>Software Engineer
                     {/*add image here*/}
 
                 </h4>
@@ -76,7 +78,7 @@ export function Experience() {
                 </p>
             </div>
 
-            <div className="resume-item">
+            <div className="resume-item ">
                 <h4>System Engineer Intern</h4>
                 <p className=""><em><b>Palni Inc, </b><h5>05/2019 - 12/2019</h5></em></p>
                 <p>

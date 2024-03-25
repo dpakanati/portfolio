@@ -33,8 +33,6 @@ const Home = () => {
                                         <div><img src="/portfolio/images/Frame1.png"
                                                   className="w-100 h-100 custom_img "/></div>
                                     </Tilt>
-
-
                                 </motion.div>
                             </AnimatePresence>
 

@@ -34,8 +34,9 @@ export function Resume() {
                         <Projects/>
                     </motion.div>
                     <motion.div className="col-lg-6 text-start">
-                        <Experience/>
                         <Skills/>
+                        <Experience/>
+
                     </motion.div>
                 </div>
             </motion.div>

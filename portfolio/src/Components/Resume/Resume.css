@@ -11,10 +11,11 @@ body.dark .resume .resume-title {
 }
 
 .resume .resume-item {
-    padding: 0 0 20px 20px;
+    padding: 0 0 10px 20px;
     margin-top: -2px;
     border-left: 2px solid var(--dark-secondary);
     position: relative;
+    text-align: justify;
 }
 
 .resume .resume-item h4 {
@@ -81,6 +82,7 @@ body.dark .resume .resume-item h5 {
     -webkit-transform: rotate(45deg);
     position: absolute;
     right: 0;
+
 }
 
 body.dark .arrow {
@@ -88,4 +90,39 @@ body.dark .arrow {
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 5px;
+}
+
+.arrow-small-screen {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .resume-item .expand-text {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1.5s ease-out;
+
+    }
+
+    .resume-item:hover .expand-text {
+        max-height: 1000px;
+        transition: max-height 1.5s ease-in;
+    }
+
+    .arrow-small-screen {
+        visibility: visible;
+    }
+
+}
+
+.resume-item .always-collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.5s ease-out;
+
+}
+
+.resume-item:hover .always-collapse {
+    max-height: 1000px;
+    transition: max-height 1.5s ease-in;
 }
