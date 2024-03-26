@@ -1,4 +1,4 @@
-import "./ProjectCard.css"
+import "../../../Styles/Project Styles/ProjectCard.css"
 import {ItemCard} from "./Card/ItemCard";
 
 interface ProjectCardProps {

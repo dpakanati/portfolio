@@ -1,4 +1,4 @@
-import './ProfilePics.css';
+import '../../Styles/ProfilePics.css';
 
 export function ProfilePics() {
     return (

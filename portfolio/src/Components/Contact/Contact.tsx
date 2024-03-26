@@ -1,4 +1,4 @@
-import "./Contact.css";
+import "../../Styles/Contact.css";
 import ContactMeForm from "./ContactMeForm";
 import PersonalDetails from "./PersonalDetails/PersonalDetails";
 import {AnimatePresence, motion} from "framer-motion";

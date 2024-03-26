@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard/ProjectCard";
-import "./Projects.css";
-import "../Home/Intro.css";
-import "../Home/Home.css";
+import "../../Styles/Project Styles/Projects.css";
+import "../../Styles/Intro.css";
+import "../../Styles/Home.css";
 
 
 export function Projects() {

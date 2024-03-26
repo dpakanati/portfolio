@@ -1,4 +1,4 @@
-import './About.css';
+import '../../Styles/About.css';
 import {Link} from "react-router-dom";
 import {AnimatePresence, easeIn, motion} from "framer-motion";
 

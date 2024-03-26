@@ -1,4 +1,4 @@
-import './Intro.css'
+import '../../Styles/Intro.css'
 import {Link} from "react-router-dom";
 import {AnimatePresence, easeInOut, motion} from "framer-motion";
 import {ReactTyped} from "react-typed";

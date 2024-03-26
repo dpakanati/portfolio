@@ -1,4 +1,4 @@
-import "../Resume.css";
+import "../../../Styles/Resume.css";
 import {useState} from "react";
 
 export function Projects() {

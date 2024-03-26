@@ -1,4 +1,4 @@
-import "./ItemCard.css"
+import "../../../../Styles/Project Styles/ItemCard.css"
 
 interface ItemCardProps {
     imageURL: string;

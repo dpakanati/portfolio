@@ -1,4 +1,4 @@
-import "./Resume.css";
+import "../../Styles/Resume.css";
 import {motion, useAnimation} from "framer-motion";
 import {useEffect} from "react";
 import Summary from "./ResumeSections/Summary";

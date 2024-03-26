@@ -1,4 +1,4 @@
-import "./Home.css";
+import "../../Styles/Home.css";
 import HomeIntro from "./Intro";
 import {AnimatePresence, easeInOut, motion} from "framer-motion";
 import {Tilt} from 'react-tilt'

@@ -1,4 +1,4 @@
-import "../Resume.css";
+import "../../../Styles/Resume.css";
 
 export function Experience() {
     return (

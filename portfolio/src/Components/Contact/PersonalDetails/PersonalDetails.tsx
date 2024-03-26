@@ -20,9 +20,12 @@ export function PersonalDetails() {
             {/*    className="badge-base__link LI-simple-link"*/}
             {/*    href="https://www.linkedin.com/in/pdhanush?trk=profile-badge"></a></div>*/}
             <p>
-                <img className="me-1" src="/portfolio/images/email_552486.png" width="24"
-                     height="24"/>
-                dhanushpakanati@gmail.com <br/>
+                <div className="mb-2">
+                    <img className="me-1" src="/portfolio/images/email_552486.png" width="24"
+                         height="24"/>
+                    dhanushpakanati@gmail.com <br/>
+                </div>
+
 
                 <img className="me-1" src="/portfolio/images/telephone-call_3059606.png" width="24"
                      height="24"/>
