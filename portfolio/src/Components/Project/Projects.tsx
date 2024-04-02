@@ -15,13 +15,13 @@ export function Projects() {
         {
             imageUrl: "/portfolio/images/bitcoin.jpeg",
             title: "Bitcoin Mining",
-            text: "Some quick example text for Card 2.",
+            text: " Erlang's Actor Model to generate bitcoins by finding inputs that, when hashed using SHA-256, yield outputs with a specified number of leading zeros, maximizes multi-core machine utilization for scalable and efficient bitcoin production.",
             gitUrl: "https://github.com/dpakanati/BitCoin-Mining",
         },
         {
             imageUrl: "/portfolio/images/climatechange.jpeg",
             title: "Climate Change Analysis",
-            text: "Some quick example text for Card 3.",
+            text: "A full-stack web application that offers robust data cleaning using Pandas, intricate trend querying via SQL, and backend API development with Node.js. The frontend, built with React.js, utilizes Chart.js for effective trend visualization. Project provides a comprehensive platform for analyzing climate change data, enabling users to glean insights and visualize trends efficiently.",
             gitUrl: "https://github.com/dpakanati/Climate-Change-Project",
         },
         {
@@ -31,21 +31,21 @@ export function Projects() {
             gitUrl: "https://github.com/dpakanati/Bit-Torrent-Protocol",
         },
         {
-            imageUrl: "path/to/image5.jpg",
+            imageUrl: "/portfolio/images/twitter.jpg",
             title: "Twitter Clone - Android Native",
             text: "An android application that imitates working of twitter including functionalities of login, registration, profile settings, add tweets with images, hashtags, follow users, search posts based on hashtags and user feed.",
             gitUrl: "https://github.com/dpakanati/Android-Projects/tree/main/TwitterClone",
         },
         {
-            imageUrl: "path/to/image6.jpg",
+            imageUrl: "/portfolio/images/erlang_icon.jpg",
             title: "Twitter Simulator - Actor Model in Erlang",
-            text: "Some quick example text for Card 6.",
+            text: "The project involves building a Twitter Clone with a client tester/simulator in Erlang, featuring user registration, tweet functionalities (hashtags and mentions), subscriptions, re-tweets, and real-time tweet delivery. It integrates a WebSocket interface using WebSharper, redesigning the engine and client-side code, and implements a JSON API for message representation.",
             gitUrl: "#",
         },
         {
             imageUrl: "/path/to/image6.jpg",
             title: "Running App - Android Native",
-            text: "Some quick example text for Card 6.",
+            text: "The project entails developing a native Android application in Kotlin that enables users to track their runs. Users can initiate, pause, and stop runs, with the path taken displayed on a Google Map. The application stores data locally using Room database, allowing users to access their entire run history.",
             gitUrl: "https://github.com/dpakanati/Android-Projects/tree/main/RunningApp",
         },
     ];

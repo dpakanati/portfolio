@@ -1,7 +1,3 @@
-/*.card{*/
-/*    height: 100%;*/
-/*}*/
-
 .card {
     color: inherit; /* Changes the text color to inherit from its parent */
     text-decoration: none; /* Removes the underline */
@@ -24,10 +20,26 @@ body.dark .card {
 
 }
 
-/*a:hover {*/
-/*    background-color: yellow;*/
-/*}*/
 .card:hover {
     transform: translateY(-10px) scale(1.05);
     border: 1px solid #000000;
+    z-index: 1;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 5; /* Limit to 5 lines */
+
+}
+
+.card-text:hover {
+    -webkit-line-clamp: unset;
+}
+
+.card-img-top {
+    width: 100%; /* This will make the image take the full width of the card */
+    height: 200px; /* Adjust as needed */
+    object-fit: cover;
 }
