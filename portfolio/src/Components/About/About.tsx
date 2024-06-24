@@ -1,12 +1,9 @@
 import '../../Styles/About.css';
 import {Link} from "react-router-dom";
 import {AnimatePresence, easeIn, motion} from "framer-motion";
+import {para1, para2, para3} from "../../Utils/constants";
 
 function About() {
-    const para1 = "I'm a full-stack developer with a passion for building web applications and Android experiences.  But my thirst for knowledge extends beyond the screen. I'm an avid traveler, seeking inspiration and diverse experiences from every corner of the world. This adventurous spirit fuels my approach to software development as well."
-    const para2 = "With a strong academic background (3.9 GPA!) from the University of Florida's Master's program, I've been fortunate to explore innovative learning paths, constantly expanding my skillset."
-    const para3 = "With over two years of experience as a software engineer, I've had the privilege of working on diverse projects encompassing both mobile and web development. This experience, coupled with my academic background, " +
-        "has equipped me with a robust skill set and a keen eye for detail. Alongside my professional endeavors, I've also dabbled in freelancing, seizing opportunities to expand my horizons and collaborate with clients from various domains."
     return (
         <AnimatePresence>
             <motion.div key="scrolling-text" initial={{y: 100, opacity: 0}}
@@ -22,7 +19,7 @@ function About() {
                                 {/*    className="fw-bold display-5 me-2 ">2+ </span> years of*/}
                                 {/*    professional experience..</p>*/}
                                 <div className="d-flex align-items-center mt-sm-3">
-                                    <span className="fw-bold display-2 me-2">2+ </span>
+                                    <span className="fw-bold display-2 me-2">3+ </span>
                                     <p className="text-start mb-0 mt-sm-2">years of professional experience..</p>
                                 </div>
 
@@ -36,7 +33,7 @@ function About() {
                         </div>
 
 
-                        <div className="mt-4">
+                        <div className="mt-3 pb-3">
                             <p className="text-start ">
                                 {para1}
                                 <br/><br/>
@@ -54,6 +51,7 @@ function About() {
                 </div>
 
             </motion.div>
+
         </AnimatePresence>
 
     );

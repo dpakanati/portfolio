@@ -17,6 +17,7 @@ const Home = () => {
         easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
     };
     return (
+
         <div className="container-fluid p-0">
             <div className="h-70 ">
                 <div className="container-fluid h-100">
@@ -30,7 +31,7 @@ const Home = () => {
                                             animate={{x: 0, opacity: 1, transition: {duration: 1.5, ease: easeInOut}}}
                                             exit={{x: 100, opacity: 0, transition: {duration: 1.5, ease: easeInOut}}}>
                                     <Tilt options={defaultOptions}>
-                                        <div><img src="/portfolio/images/Frame1.png"
+                                        <div><img src="/portfolio/images/Frame2.png"
                                                   className="w-100 h-100 custom_img "/></div>
                                     </Tilt>
                                 </motion.div>

@@ -6,9 +6,10 @@
 :root {
     --light-bg: #fdfbf4;
     --light-txt: #1f295e;
+    --light-secondary: #da3d37;
 
-    --dark-bg: #000e0e;
-    --dark-txt: #e1e9f6;
+    --dark-bg: #202430;
+    --dark-txt: #fefcfc;
     --dark-secondary: #cab6a0;
 }
 
@@ -20,5 +21,11 @@ body {
 body.dark {
     background-color: var(--dark-bg) !important;
     color: var(--dark-txt) !important;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure that the app takes at least the height of the viewport */
 }
 

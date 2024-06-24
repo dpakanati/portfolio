@@ -6,32 +6,52 @@
     backdrop-filter: blur(10px); /* Add this line */
 }
 
+
+/*Adjust navbar toggler icon color for dark mode*/
+body.dark .navbar-toggler-icon {
+    filter: invert(10%) sepia(90%) saturate(7456%) hue-rotate(160deg) brightness(90%) contrast(90%);
+    /*CAB6A0FF*/
+    color: var(--dark-secondary) !important;
+}
+
+.navbar-toggler-icon {
+    color: var(--dark-secondary) !important;
+}
+
+
 body.dark .nav-link.active {
     color: var(--dark-secondary) !important;
 }
 
+.nav-link.active {
+    color: var(--light-secondary) !important;
+}
+
 .navbar-toggler {
     position: center;
+    color: var(--light-txt) !important;
 }
 
-.navbar-toggler.collapsed {
+body.dark .navbar-toggler {
+    position: center;
+    color: var(--dark-secondary) !important;
 }
 
-body.dark .nav-link.active {
-    color: var(--dark-txt); /* Add this line */
-}
 
 .navbar-brand .nav-link .navbar {
     color: var(--light-txt);
 }
 
+
 body.dark .nav-link {
     color: var(--dark-txt);
 }
 
+
 body.dark .navbar-brand {
-    color: var(--dark-secondary);
+    color: var(--dark-txt);
 }
+
 
 @media (max-width: 992px) {
     .navbar-nav.link-items {

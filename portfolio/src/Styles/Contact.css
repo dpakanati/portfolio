@@ -11,3 +11,16 @@ body.dark .form-control::placeholder {
 body.dark .float-start {
     color: var(--dark-txt);
 }
+
+.form-control {
+    background-color: var(--light-bg) !important;
+    color: var(--light-txt) !important;
+}
+
+.form-control::placeholder {
+    color: var(--light-txt) !important;
+}
+
+.float-start {
+    color: var(--light-txt) !important;
+}

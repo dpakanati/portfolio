@@ -18,7 +18,7 @@ export function ProjectCard(props: ProjectCardProps) {
     const rows = Array.from({length: numRows}, (_, rowIndex) => rowIndex);
     //const cols = Array.from({ length: numCols }, (_, colIndex) => colIndex);
     return (
-        <div className="container-fluid p-0">
+        <div className="container-fluid p-0 mb-3">
             {rows.map(rowIndex => (
                 <div key={rowIndex} className="row">
                     {cardData.slice(rowIndex * 3, (rowIndex + 1) * 3).map((card, index) => (

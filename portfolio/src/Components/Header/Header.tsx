@@ -53,7 +53,7 @@ function Header({onDarkModeToggle}) {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link me-3" href="https://www.github.com" target="_blank"
+                        <a className="nav-link me-3" href="https://github.com/dpakanati" target="_blank"
                            rel="noopener noreferrer">
                             <img src="/portfolio/images/github_733553.png" alt="github" width="24" height="24"/>
 

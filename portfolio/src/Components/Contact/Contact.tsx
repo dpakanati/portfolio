@@ -18,6 +18,8 @@ function Contact() {
                             <ContactMeForm/>
                         </div>
                     </div>
+
+
                 </motion.div>
             </AnimatePresence>
 
