@@ -49,7 +49,7 @@ export function Experience() {
 
             <div className="resume-item">
                 <h4>Software Development Engineer Intern</h4>
-                <p className=""><em><b>Brainovision, </b><h5>05/2020 - 12/2020</h5></em></p>
+                <p className=""><em><b>Brainovision, </b><h5>05/2020 - 06/2021</h5></em></p>
                 <p>
                     <ul>
                         <li>Designed and developed UI modules using Bootstrap, ReactJS, Ajax, jQuery, CSS3, HTML5 to
@@ -80,7 +80,7 @@ export function Experience() {
 
             <div className="resume-item ">
                 <h4>System Engineer Intern</h4>
-                <p className=""><em><b>Palni Inc, </b><h5>05/2019 - 12/2019</h5></em></p>
+                <p className=""><em><b>Palni Inc, </b><h5>05/2019 - 04/2020</h5></em></p>
                 <p>
                     <ul>
                         <li>Responsible for developing and maintaining enterprise customer service chatbots on Amazon
