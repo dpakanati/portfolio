@@ -19,7 +19,7 @@ function About() {
                                 {/*    className="fw-bold display-5 me-2 ">2+ </span> years of*/}
                                 {/*    professional experience..</p>*/}
                                 <div className="d-flex align-items-center mt-sm-3">
-                                    <span className="fw-bold display-2 me-2">3+ </span>
+                                    <span className="fw-bold display-2 me-2">2+ </span>
                                     <p className="text-start mb-0 mt-sm-2">years of professional experience..</p>
                                 </div>
 
